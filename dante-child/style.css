@@ -1,0 +1,156 @@
+/* LICENSE & DETAILS
+   ==================================================
+
+	Theme Name: A Dante Child Theme by Ameba
+	Theme URI: http://www.ameba.com.uy
+	Description: Ameba adapted a Retina Responsive Multi-Purpose WordPress Theme - Designed & Developed by Swift Ideas ( www.swiftideas.net )
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Template: dante
+	Version: 1.0
+	Author: Swift Ideas
+	Author URI: www.ameba.com.uy
+
+	All files, unless otherwise stated, are released under the GNU General Public License
+	version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+
+   ==================================================
+*/
+/* --------------------------------------------
+	DANTE CSS IMPORT
+-------------------------------------------- */
+
+@import url("../dante/style.css");
+/* --------------------------------------------
+	CHILD THEME CSS
+-------------------------------------------- */
+/*----------------------------------------------
+	Dante styles changes
+------------------------------------------------*/
+
+.full-width-text:after {border-top: 26px solid transparent; }
+.client-item figure{border: none; } 
+
+/*-------end Dante styles changes---------------*/
+
+/*----------------------------------------------
+    General styles 
+------------------------------------------------*/
+.break_1 {
+    height: 3px;
+    background-color: #97bb6e !important;
+    width: 60px;
+}
+
+.white_link {color: #fff; }
+.white_link:hover{color: #33333B;}
+
+/*-------end General styles ---------------*/
+
+/*----------------------------------------------
+	Home styles
+------------------------------------------------*/
+
+.ameba_work_time .count-divider {
+    display: none;
+}
+
+.ameba_work_time .count-number,
+.ameba_work_time .count-subject {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ameba_work_time .count-number {
+    color: #fff;
+    height: auto;
+    line-height: 1em;
+}
+
+.ameba_work_time .count-subject {
+    color: #97bb6e;
+    font-size: 26px;
+    margin: 0 0 0 40px;
+}
+
+.hp_escritorio_img {
+    position: relative;
+    margin-bottom: -70px;
+}
+
+
+/*-----------End Home Styles------------------*/
+/*----------------------------------------------
+	Footer styles
+------------------------------------------------*/
+#footer h6{color:#22B473 !important;}
+
+.round_social_icon {
+    display: inline-block !important;
+    width: 35px;
+    height: 35px;
+    background: #292930;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    padding: 1px 1px !important;
+}
+
+p#copyright {
+    padding-left: 35px;
+}
+
+.footer_social_list {
+    list-style: none;
+    margin-top: 30px !important;
+}
+
+.footer_social_list li {
+    display: inline-block;
+}
+
+.footer_contact_info p {
+    margin-bottom: 5px;
+}
+/*contact form footer*/
+#footer-widgets .ameba_footer_contact input[type="submit"] {
+    background-color: transparent !important;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+#footer-widgets .ameba_footer_contact input[type="submit"]:hover{
+	color: #97bb6e;
+}
+
+#footer-widgets .ameba_footer_contact input[type="text"],
+#footer-widgets .ameba_footer_contact input[type="email"],
+#footer-widgets .ameba_footer_contact textarea{
+	width: 100%;
+    max-width: 100%;
+	margin: 5px 0;
+    background: #1a1a1a;
+    color: #ccc;
+    outline-color: #97bb6e;
+    border: 1px solid #4d4d4d;
+}
+
+#footer-widgets .ameba_footer_contact textarea{height:80px;}
+
+#footer-widgets .ameba_footer_contact input::-webkit-input-placeholder,
+#footer-widgets .ameba_footer_contact textarea::-webkit-input-placeholder{
+    color: #666 !important;
+}
+
+#footer-widgets .ameba_footer_contact input::-moz-input-placeholder,
+#footer-widgets .ameba_footer_contact textarea::-moz-input-placeholder{
+    color: #666 !important;
+}
+
+#footer-widgets .ameba_footer_contact input::-ms-input-placeholder,
+#footer-widgets .ameba_footer_contact textarea::-ms-input-placeholder{
+    color: #666 !important;
+}
+
+/*-----------End footer Styles------------------*/
